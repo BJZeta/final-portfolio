@@ -1,4 +1,22 @@
 a {
   color: white;
 }
+
+.homescreen {
+  padding: 24em 0;
+  background: url("../images/space-background.jpg") top left no-repeat;
+  background-size: cover;
+}
+
+.aboutscreen {
+  padding: 10em 2em;
+}
+
+.aboutscreen .profile-pic {
+  max-width: 20em;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*# sourceMappingURL=style.css.map */
