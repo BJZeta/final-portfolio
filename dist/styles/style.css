@@ -19,4 +19,13 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+.aboutscreen p {
+  font-size: 18px;
+}
+
+.aboutscreen button {
+  padding: 1rem 3rem;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
