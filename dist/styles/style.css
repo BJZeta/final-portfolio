@@ -28,4 +28,19 @@ a {
   padding: 1rem 3rem;
   font-size: 20px;
 }
+
+.badges img {
+  max-width: 300px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  min-width: 240px;
+}
+
+.badges img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
