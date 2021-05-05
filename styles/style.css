@@ -77,7 +77,7 @@ a {
     -ms-transform: translate(-50%, -75%);
     text-align: center;
   }
-  .img-container .buttons a {
+  .img-container .buttons a, .img-container .buttons button {
     font-size: 18px;
   }
   .img-container:hover img {
