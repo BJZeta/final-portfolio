@@ -81,7 +81,8 @@ a {
     -ms-transform: translate(-50%, -75%);
     text-align: center;
   }
-  .img-container .buttons a, .img-container .buttons button {
+  .img-container .buttons a,
+  .img-container .buttons button {
     font-size: 18px;
   }
   .img-container:hover img {
@@ -126,6 +127,30 @@ a {
     left: 0;
     right: 0;
     background: url("../images/godzilla-trivia.png") top left no-repeat;
+    opacity: 0.25;
+    width: 100%;
+    height: 100%;
+  }
+  .project-item #enigma-background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../images/enigma.png") top left no-repeat;
+    opacity: 0.25;
+    width: 100%;
+    height: 100%;
+  }
+  .project-item #tattoo-background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../images/tattoo.png") top left no-repeat;
     opacity: 0.25;
     width: 100%;
     height: 100%;
